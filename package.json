@@ -1,0 +1,31 @@
+{
+  "name": "fakedatagen",
+  "version": "1.0.0",
+  "description": "Fake Data Generator",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/programad/fakedatagen.git"
+  },
+  "keywords": [
+    "fake",
+    "test",
+    "generator",
+    "mock"
+  ],
+  "author": "Daniel Gomes <programad@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/programad/fakedatagen/issues"
+  },
+  "homepage": "https://github.com/programad/fakedatagen#readme",
+  "dependencies": {
+    "express": "^4.14.0"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1"
+  }
+}
