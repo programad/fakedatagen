@@ -23,7 +23,9 @@
   },
   "homepage": "https://github.com/programad/fakedatagen#readme",
   "dependencies": {
-    "express": "^4.14.0"
+    "express": "^4.14.0",
+    "passport": "^0.3.2",
+    "passport-anonymous": "^1.0.1"
   },
   "devDependencies": {
     "gulp": "^3.9.1"
