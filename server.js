@@ -7,12 +7,6 @@ const
     nameRouter = require('./api/routes/name.router')();
 
 
-//app.use(nameRouter);
-
-// app.get('/', function(req, res){
-//     res.send('Hello World from fake data generator');
-// });
-
 app.listen(PORT, () => {
 
     console.log(`Running at http://localhost:${PORT}`);

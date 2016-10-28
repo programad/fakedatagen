@@ -5,13 +5,13 @@ const
     getName = require('../queries/get-name');
 
 let names = function(){
-    app.get('/api/name', function(req, res) {
-        passport.authenticate(['basic', 'anonymous'], { session: false });
+    app.get('/api/name',
+        passport.authenticate(['basic', 'anonymous'], { session: false }),
+        function(req, res) {
+          let name = getName.execute();
 
-        let name = getName.execute();
-
-        res.json(name);
-    });
+          res.json(name);
+        });
 };
 
 module.exports = names;
