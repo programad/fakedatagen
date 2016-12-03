@@ -1,0 +1,6 @@
+{
+  "name": "fakedatagen",
+  "tagline": "Fake Data Generator",
+  "body": "# fakedatagen\r\n## description\r\n## Status\r\n\r\n[![Build Status](https://travis-ci.org/programad/fakedatagen.svg?branch=master)](https://travis-ci.org/programad/fakedatagen)\r\n\r\n[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)\r\n\r\n- [x] Names\r\n- [ ] Addresses\r\n\r\n\r\n",
+  "note": "Don't delete this file! It's used internally to help with page regeneration."
+}
