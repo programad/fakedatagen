@@ -2,6 +2,7 @@
 
 const
     app = require('../infrastructure/app'),
+    passport = require('../infrastructure/passport'),
     getName = require('../queries/get-name');
 
 let names = function(){
