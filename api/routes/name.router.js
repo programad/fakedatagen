@@ -3,15 +3,17 @@
 const
     app = require('../infrastructure/app'),
     passport = require('../infrastructure/passport'),
-    getName = require('../queries/get-name');
+    getNameRandom = require('../queries/get-name-random');
 
-let names = function(){
-    app.get('/api/name',
-        passport.authenticate(['basic', 'anonymous'], { session: false }),
-        function(req, res) {
-          let name = getName.execute();
+let names = function () {
+    app.get('/api/name/random',
+        // passport.authenticate(['basic', 'anonymous'], {
+        //     session: false
+        // }),
+        function (req, res) {
+            let name = getNameRandom.execute();
 
-          res.json(name);
+            res.json(name);
         });
 };
 
