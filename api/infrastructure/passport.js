@@ -27,6 +27,7 @@ const
           //   if (user.password != password) { return done(null, false); }
           //   return done(null, user);
           // })
+          done(null, username);
         });
       }
     ));

@@ -1,0 +1,3 @@
+var surNames = ["de Lima", "Ridrigues", "Aloise", "Chapela", "Silva", "Souza", "da Silva", "de Souza", "Henrique", "Martins", "Gomes", "de Bragança", "Barroso", "Braga", "Fernandes", "de Alcântara", "Alcântara", "do Amaral", "Amaral", "Teles", "Oliveira", "Ferreira", "Iozzi", "Ianuzzi", "Gonzalez", "Alegretti", "Burgarelli", "Souto", "Jardim", "Martinez", "Garcia", "Taylor", "Beda", "Barreto", "Santos", "dos Santos"];
+
+module.exports = surNames;

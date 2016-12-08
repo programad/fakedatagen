@@ -5,7 +5,7 @@ const
     PORT = process.env.PORT || 8080,
     app = require('./api/infrastructure/app'),
     passport = require('./api/infrastructure/passport'),
-    nameRouter = require('./api/routes/name.router')();
+    nameRouter = require('./api/routes/name-router')();
 
 app.get('*', function (request, response, next) {
     response.sendFile(__dirname + '/dev/index.html');
